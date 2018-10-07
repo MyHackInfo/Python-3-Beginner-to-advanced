@@ -25,6 +25,11 @@ print("\n3 This is all Reserve Keyword ")
 import keyword
 print(keyword.kwlist)
 
+# Check with iskeyword() method
+print(keyword.iskeyword("as"))
+print(keyword.iskeyword("for"))
+print(keyword.iskeyword("this"))
+
 # Constant
 print('\nConstants')
 PI = 3.123
